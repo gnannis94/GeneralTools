@@ -5,6 +5,7 @@ function [time,varargout] = VSreadtrend(filename,varargin)
 %breaking this this is broken broke brok broker
 %break this break that break this break break
 %break break break break broken brok broken
+%hey
 %ensure that the TDMS_reader functions are added to the search path
 spaths=regexp(path,pathsep,'split');
 idx=find(contains(spaths,'TDMS_reader'));
